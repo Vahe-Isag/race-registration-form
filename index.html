@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Marathon Race Registration</h1>
+
+    <h2>Enter Name</h2>
+    <form action="=/race">
+        <p><label for="firstname">First Name</label>
+            <input id="firstname" type="text" placeholder="First Name" name="firstname">
+        </p>
+        <p><label for="lastname">Last Name</label>
+            <input id="lastname" type="text" placeholder="Last Name" name="lastname">
+        </p>
+
+        <h2>Enter Age (18 and over only)</h2>
+        <p><label for="age">Age</label>
+            <input id="age" type="number" name="age" min="18">
+        </p>
+        <h2>Select Marathon</h2>
+        <p><label for="marathon">Select Marathon Type</label>
+            <select name="marathon" id="marathon">
+                <option value="5krun">5K Run</option>
+                <option value="halfmarathon">Half Marathon</option>
+                <option value="fullmarathon">Full Marathon</option>
+            </select>
+        </p>
+</body>
+
+</html>
